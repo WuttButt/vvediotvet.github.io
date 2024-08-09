@@ -1,0 +1,16 @@
+/* Стили для поля ввода */
+#input-field {
+  width: 200px; /* Ширина поля */
+  padding: 10px; /* Отступ от текста */
+  border: 1px solid #ccc; /* Граница */
+  border-radius: 5px; /* Скругление углов */
+  font-size: 16px; /* Размер шрифта */
+  box-sizing: border-box; /* Включает padding и border в ширину */
+}
+
+/* Стили для поля ввода при фокусе */
+#input-field:focus {
+  outline: none; /* Убирает стандартный контур при фокусе */
+  border-color: #007bff; /* Изменяет цвет границы */
+  box-shadow: 0 0 5px #007bff; /* Добавляет тень */
+}
